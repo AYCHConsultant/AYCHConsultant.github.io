@@ -1,0 +1,114 @@
+/* Base Styles -------------------- */
+body, html {
+    height: 100%;
+}
+
+body:after {
+    background: url(https://s3.eu-west-2.amazonaws.com/liambeeton.com/liam-beeton-com-2.jpg) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    content: "";
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+
+    @media screen and (max-width: 768px) {
+        background-attachment: scroll;
+    }
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+@include media-breakpoint-up(sm) {
+    h1 {
+        font-size: 2.0rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+@include media-breakpoint-up(sm) {
+    h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    h3 {
+        font-size: 1.8rem;
+    }
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid $primary;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: $primary;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.nav-pills {
+    .nav-item {
+        .active {
+            color: $gray-700;
+        }
+
+        a {
+            color: $secondary;
+    
+            &:hover {
+                color: $gray-700;
+            }
+        
+            &:focus {
+                color: $gray-700;
+            }
+        
+            &:active {
+                color: $gray-700;
+            }
+        }
+    }
+}

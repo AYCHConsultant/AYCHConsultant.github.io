@@ -1,0 +1,43 @@
+.jumbotron {
+    background: none;
+    color: $primary;
+
+    .highlight {
+        color: #7cf6f7;
+        text-decoration: none;
+
+        &:hover {
+            color: #62b2f9;
+        }
+    
+        &:focus {
+            color: #62b2f9;
+        }
+    
+        &:active {
+            color: #62b2f9;
+        }
+    }
+
+    h1 {
+        font-size: 2.0rem;
+    }
+    
+    @include media-breakpoint-up(sm) {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+    
+    @include media-breakpoint-up(md) {
+        h1 {
+            font-size: 3.0rem;
+        }
+    }
+    
+    @include media-breakpoint-up(lg) {
+        h1 {
+            font-size: 3.5rem;
+        }
+    }
+}

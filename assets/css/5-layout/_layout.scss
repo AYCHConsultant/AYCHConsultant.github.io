@@ -1,0 +1,63 @@
+#landing {
+    height: 100vh;
+}
+
+#skills {
+    background-color: $primary;
+
+    h1 {
+        color: $gray-700;
+    }
+}
+
+#endorsement {
+    background-color: $secondary;
+
+    h1 {
+        color: $white;
+    }
+
+    p {
+        color: $white;
+    }
+}
+
+#about {
+    background-color: $primary;
+
+    h1 {
+        color: $gray-700;
+    }
+}
+
+#contact {
+    background-color: $secondary;
+
+    h1 {
+        color: $white;
+    }
+
+    h3 {
+        color: $white;
+    }
+
+    i {
+        color: $white;
+    }
+
+    p {
+        color: $white;
+    }
+}
+
+.main-footer {
+    background-color: $secondary;
+
+    p {
+        color: $white;
+    }
+}
+
+.blockquote-footer {
+    color: $primary;
+}
