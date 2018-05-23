@@ -3,19 +3,19 @@
     color: $primary;
 
     .highlight {
-        color: #7cf6f7;
+        color: $ice;
         text-decoration: none;
 
         &:hover {
-            color: #62b2f9;
+            color: $freshwater;
         }
     
         &:focus {
-            color: #62b2f9;
+            color: $freshwater;
         }
     
         &:active {
-            color: #62b2f9;
+            color: $freshwater;
         }
     }
 

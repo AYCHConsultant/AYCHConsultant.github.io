@@ -1,0 +1,36 @@
+.navbar {
+    .navbar-brand {
+        color: $gray !important;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .navbar-nav {
+        .nav-item {
+            .active {
+                color: $plaster;
+            }
+    
+            a {
+                color: $gray;
+                font-family: 'Lato', sans-serif;
+        
+                &:hover {
+                    color: $plaster;
+                }
+            
+                &:focus {
+                    color: $plaster;
+                }
+            
+                &:active {
+                    color: $plaster;
+                }
+            }
+        }
+    }
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: $plaster;
+}

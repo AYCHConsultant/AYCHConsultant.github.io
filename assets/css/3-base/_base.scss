@@ -24,24 +24,24 @@ body:after {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
 }
 
 @include media-breakpoint-up(sm) {
     h1 {
-        font-size: 2.0rem;
+        font-size: 2.5rem;
     }
 }
 
 @include media-breakpoint-up(md) {
     h1 {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
     }
 }
 
 @include media-breakpoint-up(lg) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 3.0rem;
     }
 }
 
@@ -78,37 +78,32 @@ hr {
 
 .btn-primary-outline {
     background-color: transparent;
-    border-color: $primary;
+    border-color: $ice;
     border-radius: 0 !important;
+    color: $white;
     text-transform: uppercase;
+
+    &:hover {
+        color: $primary;
+        background-color: $freshwater;
+        border-color: $freshwater;
+    }
+
+    &:focus {
+        color: $primary;
+        background-color: $freshwater;
+        border-color: $freshwater;
+    }
+
+    &:active {
+        color: $primary;
+        background-color: $freshwater;
+        border-color: $freshwater;
+    }
 }
 
 .btn-xl {
-    padding: 10px 20px;
+    padding: 10px 50px;
     font-size: 20px;
     border-radius: 10px;
-}
-
-.nav-pills {
-    .nav-item {
-        .active {
-            color: $gray-700;
-        }
-
-        a {
-            color: $secondary;
-    
-            &:hover {
-                color: $gray-700;
-            }
-        
-            &:focus {
-                color: $gray-700;
-            }
-        
-            &:active {
-                color: $gray-700;
-            }
-        }
-    }
 }

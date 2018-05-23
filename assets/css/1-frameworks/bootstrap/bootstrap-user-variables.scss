@@ -8,15 +8,26 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed|Lato');
 
-$primary: #D3D3D3 !default;
-$secondary: #808080 !default;
+$ice: #99d3df;
+$freshwater: #88bbd6;
+$plaster: #cdcdcd;
+$linen: #e9e9e9;
+$shadow: #535353;
+$white: #f5f5f5 !default;
+
+$primary: $linen !default;
+$secondary: $shadow !default;
+$alternate: $ice !default;
+$gray: #666666 !default;
 
 $font-family-sans-serif: 'Montserrat', sans-serif;
 $font-family-base: $font-family-sans-serif !default;
+$body-color: $gray;
 
-$headings-font-family: 'Roboto', sans-serif !default;
+$headings-font-family: 'Roboto Condensed', sans-serif !default;
+$headings-color: inherit !default;
 
 $spacer: 1rem !default;
 $spacers: () !default;

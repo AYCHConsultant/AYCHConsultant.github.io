@@ -1,0 +1,23 @@
+.nav-pills {
+    .nav-item {
+        .active {
+            color: $ice;
+        }
+
+        a {
+            color: $freshwater;
+    
+            &:hover {
+                color: $ice;
+            }
+        
+            &:focus {
+                color: $ice;
+            }
+        
+            &:active {
+                color: $ice;
+            }
+        }
+    }
+}

@@ -4,10 +4,6 @@
 
 #skills {
     background-color: $primary;
-
-    h1 {
-        color: $gray-700;
-    }
 }
 
 #endorsement {
@@ -24,10 +20,6 @@
 
 #about {
     background-color: $primary;
-
-    h1 {
-        color: $gray-700;
-    }
 }
 
 #contact {
@@ -48,16 +40,21 @@
     p {
         color: $white;
     }
-}
 
-.main-footer {
-    background-color: $secondary;
-
-    p {
+    a {
         color: $white;
-    }
-}
+        text-decoration: none;
 
-.blockquote-footer {
-    color: $primary;
+        &:hover {
+            color: $alternate;
+        }
+    
+        &:focus {
+            color: $alternate;
+        }
+    
+        &:active {
+            color: $alternate;
+        }
+    }
 }
