@@ -10138,13 +10138,13 @@ hr {
     .jumbotron .highlight:active {
       color: #88bbd6; }
   .jumbotron h1 {
-    font-size: 2.0rem; }
+    font-size: 2.5rem; }
   @media (min-width: 576px) {
     .jumbotron h1 {
-      font-size: 2.5rem; } }
+      font-size: 2.8rem; } }
   @media (min-width: 768px) {
     .jumbotron h1 {
-      font-size: 3.0rem; } }
+      font-size: 3.2rem; } }
   @media (min-width: 992px) {
     .jumbotron h1 {
       font-size: 3.5rem; } }
