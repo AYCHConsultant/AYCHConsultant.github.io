@@ -25,7 +25,9 @@ npm install
 ```
 
 ## Docker 
+```
 docker build -t liambeeton .
 docker run --rm -v "$(pwd)":/app liambeeton npm install
 docker run --rm -v "$(pwd)":/app liambeeton gulp
 docker run --rm -p 3000:3000 -v "$(pwd)":/app liambeeton
+```
