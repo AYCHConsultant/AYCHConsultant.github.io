@@ -4,7 +4,7 @@ Liam is a very competent and experienced technical/development leader, teacher a
 ## Quick Start
 ```
 git clone https://github.com/liambeeton/consulting-website.git
-cd company-website
+cd consulting-website
 npm install
 gulp serve
 ```
@@ -23,3 +23,9 @@ rm -fr package-lock.json
 npm cache clean --force
 npm install
 ```
+
+## Docker 
+docker build -t liambeeton .
+docker run --rm -v "$(pwd)":/app liambeeton npm install
+docker run --rm -v "$(pwd)":/app liambeeton gulp
+docker run --rm -p 3000:3000 -v "$(pwd)":/app liambeeton
