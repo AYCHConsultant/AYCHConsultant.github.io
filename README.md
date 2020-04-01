@@ -1,9 +1,9 @@
-# Liam Beeton Consulting
-Liam is a very competent and experienced technical/development leader, teacher and mentor. He has exceptional interpersonal communication skills and is also a good presenter/technical evangelist with strong public speaking skills and experience.
+# AYCH inc
+"leadwise" - "managewell" is a principle of AYCH Consultant and Developer. A competent and experienced technical/development company in the global leaderlist. The consultants and developers are of competent, experienced, and of exceptional interpersonal communication skills towards global business environment. Main language used is English for international communication. All are selected to deliver the products and services at the best version in terms of technical and soft skills.
 
 ## Quick Start
 ```
-git clone https://github.com/liambeeton/consulting-website.git
+git clone https://github.com/aychconsultant/aychconsultant-website.git
 cd consulting-website
 npm install
 gulp serve
