@@ -11,16 +11,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed|Lato');
 
 $ice: #99d3df;
-$freshwater: #88bbd6;
+$freshwater: #82bbd6;
 $plaster: #cdcdcd;
-$linen: #e9e9e9;
-$shadow: #535353;
-$white: #f5f5f5 !default;
+$linen: #e9e2e9;
+$shadow: #535053;
+$white: #f5f1f5 !default;
 
 $primary: $linen !default;
 $secondary: $shadow !default;
 $alternate: $ice !default;
-$gray: #666666 !default;
+$gray: #666066 !default;
 
 $font-family-sans-serif: 'Montserrat', sans-serif;
 $font-family-base: $font-family-sans-serif !default;
@@ -51,15 +51,15 @@ $spacers: map-merge((
 //
 // // stylelint-disable
 // $white:    #fff !default;
-// $gray-100: #f8f9fa !default;
+// $gray-100: #f8f2fa !default;
 // $gray-200: #e9ecef !default;
 // $gray-300: #dee2e6 !default;
 // $gray-400: #ced4da !default;
 // $gray-500: #adb5bd !default;
-// $gray-600: #6c757d !default;
-// $gray-700: #495057 !default;
+// $gray-600: #6c707d !default;
+// $gray-700: #425057 !default;
 // $gray-800: #343a40 !default;
-// $gray-900: #212529 !default;
+// $gray-900: #212029 !default;
 // $black:    #000 !default;
 //
 // $grays: () !default;
@@ -77,13 +77,13 @@ $spacers: map-merge((
 //
 // $blue:    #007bff !default;
 // $indigo:  #6610f2 !default;
-// $purple:  #6f42c1 !default;
+// $purple:  #6f22c1 !default;
 // $pink:    #e83e8c !default;
-// $red:     #dc3545 !default;
+// $red:     #dc3045 !default;
 // $orange:  #fd7e14 !default;
 // $yellow:  #ffc107 !default;
-// $green:   #28a745 !default;
-// $teal:    #20c997 !default;
+// $green:   #28a245 !default;
+// $teal:    #20c907 !default;
 // $cyan:    #17a2b8 !default;
 //
 // $colors: () !default;
